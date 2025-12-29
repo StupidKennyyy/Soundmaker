@@ -1,20 +1,7 @@
-from VLC_Controller import VLC_Controller
+from local_player import AudioPlayer
+from GUI import SoundmakerGUI
 
-import time
+Player = AudioPlayer()
 
-player = VLC_Controller()
-player.load()
-player.play()
-
-while True:
-
-    key = input("> ").strip().lower()
-
-    if key == "n":
-        player.next()
-    elif key == "b":
-        player.previous()
-    elif key == "m":
-        player.pause()
-
-
+GUI = SoundmakerGUI(Player)
+GUI.run()
