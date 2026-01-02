@@ -1,0 +1,22 @@
+[
+    {
+        "time": "21:10",
+        "action": "PLAY",
+        "days": ["Tuesday"]
+    },
+    {
+        "time": "21:13",
+        "action": "STOP",
+        "days": ["Tuesday"]
+    },
+    {
+        "time": "21:15",
+        "action": "PLAY",
+        "days": ["Tuesday"]
+    },
+    {
+        "time": "21:18",
+        "action": "STOP",
+        "days": ["Tuesday"]
+    }
+]

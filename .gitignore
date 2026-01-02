@@ -3,3 +3,5 @@
 /songs
 /__pycache__
 soundmaker_icon.png
+
+*/__pycache__
